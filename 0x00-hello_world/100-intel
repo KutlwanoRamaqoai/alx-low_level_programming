@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S masm=intel $CFIL -o 'ech $CFILE | cut -d. -f1' .s
